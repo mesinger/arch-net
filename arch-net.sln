@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6EFE11CA-11BC-4204-BCFD-13748A890FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchNet", "src\ArchNet\ArchNet.csproj", "{8A23B915-AB9A-4BFC-B4AE-51C0B74410F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8F7ADB50-F662-4555-9925-2B95A5A6FEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchNet.Test", "test\ArchNet.Test\ArchNet.Test.csproj", "{A9937AB1-B95E-4C95-A74A-C8780AF1B239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchNet.Test.Domain.ShoppingCart", "test\ArchNet.Test.Domain.ShoppingCart\ArchNet.Test.Domain.ShoppingCart.csproj", "{E2A9EFB7-26C7-492F-9553-C1504FA4044F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchNet.Test.Domain.Logistics", "test\ArchNet.Test.Domain.Logistics\ArchNet.Test.Domain.Logistics.csproj", "{C0106AD2-D35C-4836-886F-E0FF215CE7DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A23B915-AB9A-4BFC-B4AE-51C0B74410F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A23B915-AB9A-4BFC-B4AE-51C0B74410F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A23B915-AB9A-4BFC-B4AE-51C0B74410F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A23B915-AB9A-4BFC-B4AE-51C0B74410F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9937AB1-B95E-4C95-A74A-C8780AF1B239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9937AB1-B95E-4C95-A74A-C8780AF1B239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9937AB1-B95E-4C95-A74A-C8780AF1B239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9937AB1-B95E-4C95-A74A-C8780AF1B239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A9EFB7-26C7-492F-9553-C1504FA4044F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A9EFB7-26C7-492F-9553-C1504FA4044F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A9EFB7-26C7-492F-9553-C1504FA4044F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A9EFB7-26C7-492F-9553-C1504FA4044F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0106AD2-D35C-4836-886F-E0FF215CE7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0106AD2-D35C-4836-886F-E0FF215CE7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0106AD2-D35C-4836-886F-E0FF215CE7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0106AD2-D35C-4836-886F-E0FF215CE7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A23B915-AB9A-4BFC-B4AE-51C0B74410F5} = {6EFE11CA-11BC-4204-BCFD-13748A890FC3}
+		{A9937AB1-B95E-4C95-A74A-C8780AF1B239} = {8F7ADB50-F662-4555-9925-2B95A5A6FEAD}
+		{E2A9EFB7-26C7-492F-9553-C1504FA4044F} = {8F7ADB50-F662-4555-9925-2B95A5A6FEAD}
+		{C0106AD2-D35C-4836-886F-E0FF215CE7DE} = {8F7ADB50-F662-4555-9925-2B95A5A6FEAD}
+	EndGlobalSection
+EndGlobal
