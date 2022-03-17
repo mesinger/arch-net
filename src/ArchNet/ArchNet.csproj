@@ -5,6 +5,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
+
+    <PackageId>ArchNet</PackageId>
+    <Version>1.0.1-beta</Version>
+    <Authors>mesinger</Authors>
+    <Title>ArchNet</Title>
+    <Description>An architectural assertion framework</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>test;architecture;assertion;xunit;nunit</PackageTags>
+    <RepositoryUrl>https://github.com/mesinger/arch-net</RepositoryUrl>
+    
   </PropertyGroup>
 
 </Project>
