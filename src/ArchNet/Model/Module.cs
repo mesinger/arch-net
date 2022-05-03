@@ -23,10 +23,9 @@ public class Module
         return Equals((Module) obj);
     }
 
-    /// <inheritdoc />
     public override int GetHashCode()
     {
-        throw new System.NotImplementedException();
+        return Id.GetHashCode();
     }
 
     public override string ToString()
